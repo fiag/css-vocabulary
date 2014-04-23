@@ -2,153 +2,153 @@ $(document).ready(function() {
   var vocab = [
     {
       'tokenName': 'comment',
-      'humanName': 'Comment',
+      'humanName': '注释',
       'url': ''
     },
     {
       'tokenName': 'statement',
-      'humanName': 'Statement',
+      'humanName': '声明',
       'url': ''
     },
     {
       'tokenName': 'rule-set',
-      'humanName': 'Rule-set',
+      'humanName': '规则集',
       'url': ''
     },
     {
       'tokenName': 'at-rule',
-      'humanName': 'At-rule',
+      'humanName': '@规则',
       'url': ''
     },
     {
       'tokenName': 'media-query',
-      'humanName': 'Media query',
+      'humanName': '媒介查询',
       'url': ''
     },
     {
       'tokenName': 'media-query-list',
-      'humanName': 'Media query list',
+      'humanName': '媒介查询列表',
       'url': ''
     },
 
     {
       'tokenName': 'media-type',
-      'humanName': 'Media type',
+      'humanName': '媒介类型',
       'url': ''
     },
     {
       'tokenName': 'expression',
-      'humanName': 'Expression',
+      'humanName': '表达式',
       'url': ''
     },
     {
       'tokenName': 'media-feature',
-      'humanName': 'Media feature',
+      'humanName': '媒介特征',
       'url': ''
     },
     {
       'tokenName': 'block',
-      'humanName': 'Block',
+      'humanName': '块',
       'url': ''
     },
     {
       'tokenName': 'declaration-block',
-      'humanName': 'Declaration block',
+      'humanName': '声明块',
       'url': ''
     },
     {
       'tokenName': 'selector',
-      'humanName': 'Selector',
+      'humanName': '选择器',
       'url': ''
     },
     {
       'tokenName': 'simple-selector',
-      'humanName': 'Simple selector',
+      'humanName': '简单选择器',
       'url': ''
     },
     {
       'tokenName': 'type-selector',
-      'humanName': 'Type selector',
+      'humanName': '类型选择器',
       'url': ''
     },
     {
       'tokenName': 'universal-selector',
-      'humanName': 'Universal selector',
+      'humanName': '通配选择器',
       'url': ''
     },
     {
       'tokenName': 'id-selector',
-      'humanName': 'ID selector',
+      'humanName': 'ID 选择器',
       'url': ''
     },
     {
       'tokenName': 'class-selector',
-      'humanName': 'Class selector',
+      'humanName': '类选择器',
       'url': ''
     },
     {
       'tokenName': 'attribute-selector',
-      'humanName': 'Attribute selector',
+      'humanName': '属性选择器',
       'url': ''
     },
     {
       'tokenName': 'pseudo-class',
-      'humanName': 'Pseudo-class',
+      'humanName': '伪类',
       'url': ''
     },
     {
       'tokenName': 'pseudo-element',
-      'humanName': 'Pseudo-element',
+      'humanName': '伪元素',
       'url': ''
     },
     {
       'tokenName': 'combinator',
-      'humanName': 'Combinator',
+      'humanName': '关系选择器',
       'url': ''
     },
     {
       'tokenName': 'descendant-combinator',
-      'humanName': 'Descendant combinator',
+      'humanName': '后代选择器',
       'url': ''
     },
     {
       'tokenName': 'child-combinator',
-      'humanName': 'Child combinator',
+      'humanName': '子选择器',
       'url': ''
     },
     {
       'tokenName': 'adjacent-sibling-combinator',
-      'humanName': 'Adjacent sibling combinator',
+      'humanName': '相邻兄弟选择器',
       'url': ''
     },
     {
       'tokenName': 'general-sibling-combinator',
-      'humanName': 'General sibling combinator',
+      'humanName': '一般兄弟选择器',
       'url': ''
     },
     {
       'tokenName': 'declaration',
-      'humanName': 'Declaration',
+      'humanName': '声明',
       'url': ''
     },
     {
       'tokenName': 'property',
-      'humanName': 'Property',
+      'humanName': '属性',
       'url': ''
     },
     {
       'tokenName': 'value',
-      'humanName': 'Value',
+      'humanName': '值',
       'url': ''
     },
     {
       'tokenName': 'function',
-      'humanName': 'Function',
+      'humanName': '函数',
       'url': ''
     },
     {
       'tokenName': 'keyword',
-      'humanName': 'Keyword',
+      'humanName': '关键字',
       'url': ''
     },
     /*{
@@ -158,7 +158,7 @@ $(document).ready(function() {
     },*/
     {
       'tokenName': 'string',
-      'humanName': 'String',
+      'humanName': '字符串',
       'url': ''
     },
     {
@@ -168,32 +168,32 @@ $(document).ready(function() {
     },
     {
       'tokenName': 'number',
-      'humanName': 'Number',
+      'humanName': '数字',
       'url': ''
     },
     {
       'tokenName': 'percentage',
-      'humanName': 'Percentage',
+      'humanName': '百分比',
       'url': ''
     },
     {
       'tokenName': 'length',
-      'humanName': 'Length',
+      'humanName': '长度',
       'url': ''
     },
     {
       'tokenName': 'unit',
-      'humanName': 'Unit',
+      'humanName': '单位',
       'url': ''
     },
     {
       'tokenName': 'color',
-      'humanName': 'Color',
+      'humanName': '颜色',
       'url': ''
     },
     {
       'tokenName': 'vendor-prefix',
-      'humanName': 'Vendor prefix',
+      'humanName': '第三方前缀',
       'url': ''
     },
   ];
