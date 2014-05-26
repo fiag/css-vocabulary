@@ -68,7 +68,7 @@ $(document).ready(function() {
     },
     {
       'tokenName': 'type-selector',
-      'humanName': '类型选择器',
+      'humanName': '元素选择器',
       'url': ''
     },
     {
